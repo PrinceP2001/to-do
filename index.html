@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+<div class="split left">
+    <div class="centered">
+      <h2>Login</h2>
+      <form action="./list.html" method="post" id="fo" >
+        <div class="container">
+          <label for="uname"><b>Username</b></label><br><br>
+          <input id="usr" type="text" placeholder="Enter Username" name="uname">
+      <br>
+          <label for="psw"><b>Password</b></label><br><br>
+          <input id="pwd" type="password" placeholder="Enter Password" name="psw"><br><br>
+        <a href="./list.html"  id="log" type="button" onclick="return validate()"><b>LOGIN</b> </a><br><br>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <!-- <div class="container" style="background-color:#f1f1f1">
+           <button type="button" class="cancelbtn">Cancel</button>
+          <br> 
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div> -->
+      </form>
+    </div>
+  </div>
+  
+  <div class="split right">
+    <!-- <div class="centered"> -->
+      <img src="./todo-logo.jfif" alt="Avatar man">
+      <div class="patterns">
+        <svg width="100%" height="90%">
+          <defs>
+            <pattern id="polka-dots" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+              <circle fill="#be9ddf" cx="25" cy="25" r="3"></circle>
+            </pattern>  
+              <style>
+           @import url("https://fonts.googleapis.com/css?  family=Lora:400,400i,700,700i");
+         </style>
+            
+          </defs>
+                    
+          <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>      
+           <text x="50%" y="60%"  text-anchor="middle"  >
+         TO DO LIST
+       </text>
+       </svg>
+  </div>
+    <!-- </div> -->
+  </div>
+  <script src="./login.js"></script>
+</body>
+</html>
