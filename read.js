@@ -18,7 +18,7 @@ xhttp.send();
 }
     
 var d=document.getElementById("demo");
-d.style.backgroundColor="aquamarine";
+d.style.backgroundColor="lightyellow";
 d.style.width="50%";
 
 
